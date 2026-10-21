@@ -1,0 +1,605 @@
+{
+  "categories": {
+    "country": [
+      "Australia",
+      "Brazil",
+      "Canada",
+      "France",
+      "Germany",
+      "India",
+      "Japan",
+      "Netherlands",
+      "Singapore",
+      "UAE",
+      "UK",
+      "USA"
+    ],
+    "job_role": [
+      "AI Engineer",
+      "Computer Vision Engineer",
+      "Data Analyst",
+      "Data Scientist",
+      "Machine Learning Engineer",
+      "NLP Engineer",
+      "Research Scientist",
+      "Software Engineer AI"
+    ],
+    "ai_specialization": [
+      "Analytics",
+      "Computer Vision",
+      "Forecasting",
+      "Generative AI",
+      "LLM",
+      "MLOps",
+      "NLP",
+      "Reinforcement Learning"
+    ],
+    "experience_level": [
+      "Entry",
+      "Lead",
+      "Mid",
+      "Senior"
+    ],
+    "education_required": [
+      "Bachelor",
+      "Bootcamp",
+      "Diploma",
+      "Master",
+      "PhD"
+    ],
+    "industry": [
+      "Automotive",
+      "Consulting",
+      "Education",
+      "Energy",
+      "Finance",
+      "Gaming",
+      "Healthcare",
+      "Retail",
+      "Tech",
+      "Telecom"
+    ],
+    "company_size": [
+      "Enterprise",
+      "Large",
+      "Medium",
+      "Small",
+      "Startup"
+    ],
+    "work_mode": [
+      "Hybrid",
+      "Onsite",
+      "Remote"
+    ]
+  },
+  "numeric_ranges": {
+    "experience_years": {
+      "min": 0.0,
+      "max": 19.0,
+      "median": 6.0,
+      "mean": 7.028133333333333
+    },
+    "year": {
+      "min": 2020.0,
+      "max": 2026.0,
+      "median": 2023.0,
+      "mean": 2023.0032
+    }
+  },
+  "core_categorical": [
+    "country",
+    "job_role",
+    "ai_specialization",
+    "experience_level",
+    "education_required",
+    "industry",
+    "company_size",
+    "work_mode"
+  ],
+  "core_numerical": [
+    "experience_years",
+    "year"
+  ],
+  "extended_numerical": [
+    "experience_years",
+    "year",
+    "ai_adoption_score",
+    "economic_index",
+    "cost_of_living_index",
+    "company_funding_billion",
+    "skill_demand_score",
+    "ai_maturity_years",
+    "weekly_hours",
+    "vacation_days",
+    "company_rating",
+    "job_openings"
+  ],
+  "test_mae": 9302.91,
+  "test_rmse": 11769.16,
+  "test_r2": 0.9279,
+  "best_regressor": "Ridge(alpha=1.0)",
+  "best_classifier": "RandomForestClassifier",
+  "role_country_medians": [
+    {
+      "country": "Australia",
+      "job_role": "AI Engineer",
+      "median_salary": 100813.5
+    },
+    {
+      "country": "Australia",
+      "job_role": "Computer Vision Engineer",
+      "median_salary": 108729.0
+    },
+    {
+      "country": "Australia",
+      "job_role": "Data Analyst",
+      "median_salary": 72423.0
+    },
+    {
+      "country": "Australia",
+      "job_role": "Data Scientist",
+      "median_salary": 99423.0
+    },
+    {
+      "country": "Australia",
+      "job_role": "Machine Learning Engineer",
+      "median_salary": 106163.0
+    },
+    {
+      "country": "Australia",
+      "job_role": "NLP Engineer",
+      "median_salary": 105155.0
+    },
+    {
+      "country": "Australia",
+      "job_role": "Research Scientist",
+      "median_salary": 115963.0
+    },
+    {
+      "country": "Australia",
+      "job_role": "Software Engineer AI",
+      "median_salary": 102895.0
+    },
+    {
+      "country": "Brazil",
+      "job_role": "AI Engineer",
+      "median_salary": 49626.5
+    },
+    {
+      "country": "Brazil",
+      "job_role": "Computer Vision Engineer",
+      "median_salary": 51785.0
+    },
+    {
+      "country": "Brazil",
+      "job_role": "Data Analyst",
+      "median_salary": 35534.0
+    },
+    {
+      "country": "Brazil",
+      "job_role": "Data Scientist",
+      "median_salary": 46600.0
+    },
+    {
+      "country": "Brazil",
+      "job_role": "Machine Learning Engineer",
+      "median_salary": 53276.0
+    },
+    {
+      "country": "Brazil",
+      "job_role": "NLP Engineer",
+      "median_salary": 50593.0
+    },
+    {
+      "country": "Brazil",
+      "job_role": "Research Scientist",
+      "median_salary": 59415.0
+    },
+    {
+      "country": "Brazil",
+      "job_role": "Software Engineer AI",
+      "median_salary": 50579.0
+    },
+    {
+      "country": "Canada",
+      "job_role": "AI Engineer",
+      "median_salary": 103689.5
+    },
+    {
+      "country": "Canada",
+      "job_role": "Computer Vision Engineer",
+      "median_salary": 104780.5
+    },
+    {
+      "country": "Canada",
+      "job_role": "Data Analyst",
+      "median_salary": 71965.0
+    },
+    {
+      "country": "Canada",
+      "job_role": "Data Scientist",
+      "median_salary": 97253.0
+    },
+    {
+      "country": "Canada",
+      "job_role": "Machine Learning Engineer",
+      "median_salary": 108623.0
+    },
+    {
+      "country": "Canada",
+      "job_role": "NLP Engineer",
+      "median_salary": 106172.0
+    },
+    {
+      "country": "Canada",
+      "job_role": "Research Scientist",
+      "median_salary": 115510.0
+    },
+    {
+      "country": "Canada",
+      "job_role": "Software Engineer AI",
+      "median_salary": 98406.0
+    },
+    {
+      "country": "France",
+      "job_role": "AI Engineer",
+      "median_salary": 86365.0
+    },
+    {
+      "country": "France",
+      "job_role": "Computer Vision Engineer",
+      "median_salary": 96661.0
+    },
+    {
+      "country": "France",
+      "job_role": "Data Analyst",
+      "median_salary": 61118.0
+    },
+    {
+      "country": "France",
+      "job_role": "Data Scientist",
+      "median_salary": 87248.0
+    },
+    {
+      "country": "France",
+      "job_role": "Machine Learning Engineer",
+      "median_salary": 93181.0
+    },
+    {
+      "country": "France",
+      "job_role": "NLP Engineer",
+      "median_salary": 89379.0
+    },
+    {
+      "country": "France",
+      "job_role": "Research Scientist",
+      "median_salary": 98615.0
+    },
+    {
+      "country": "France",
+      "job_role": "Software Engineer AI",
+      "median_salary": 93235.5
+    },
+    {
+      "country": "Germany",
+      "job_role": "AI Engineer",
+      "median_salary": 96525.0
+    },
+    {
+      "country": "Germany",
+      "job_role": "Computer Vision Engineer",
+      "median_salary": 98654.0
+    },
+    {
+      "country": "Germany",
+      "job_role": "Data Analyst",
+      "median_salary": 66584.0
+    },
+    {
+      "country": "Germany",
+      "job_role": "Data Scientist",
+      "median_salary": 89132.0
+    },
+    {
+      "country": "Germany",
+      "job_role": "Machine Learning Engineer",
+      "median_salary": 95602.0
+    },
+    {
+      "country": "Germany",
+      "job_role": "NLP Engineer",
+      "median_salary": 97949.0
+    },
+    {
+      "country": "Germany",
+      "job_role": "Research Scientist",
+      "median_salary": 104395.0
+    },
+    {
+      "country": "Germany",
+      "job_role": "Software Engineer AI",
+      "median_salary": 95322.5
+    },
+    {
+      "country": "India",
+      "job_role": "AI Engineer",
+      "median_salary": 40945.0
+    },
+    {
+      "country": "India",
+      "job_role": "Computer Vision Engineer",
+      "median_salary": 40195.0
+    },
+    {
+      "country": "India",
+      "job_role": "Data Analyst",
+      "median_salary": 28000.0
+    },
+    {
+      "country": "India",
+      "job_role": "Data Scientist",
+      "median_salary": 38004.0
+    },
+    {
+      "country": "India",
+      "job_role": "Machine Learning Engineer",
+      "median_salary": 39547.0
+    },
+    {
+      "country": "India",
+      "job_role": "NLP Engineer",
+      "median_salary": 39378.0
+    },
+    {
+      "country": "India",
+      "job_role": "Research Scientist",
+      "median_salary": 44759.0
+    },
+    {
+      "country": "India",
+      "job_role": "Software Engineer AI",
+      "median_salary": 39038.0
+    },
+    {
+      "country": "Japan",
+      "job_role": "AI Engineer",
+      "median_salary": 92929.0
+    },
+    {
+      "country": "Japan",
+      "job_role": "Computer Vision Engineer",
+      "median_salary": 95630.0
+    },
+    {
+      "country": "Japan",
+      "job_role": "Data Analyst",
+      "median_salary": 64176.0
+    },
+    {
+      "country": "Japan",
+      "job_role": "Data Scientist",
+      "median_salary": 89141.5
+    },
+    {
+      "country": "Japan",
+      "job_role": "Machine Learning Engineer",
+      "median_salary": 96029.0
+    },
+    {
+      "country": "Japan",
+      "job_role": "NLP Engineer",
+      "median_salary": 94585.0
+    },
+    {
+      "country": "Japan",
+      "job_role": "Research Scientist",
+      "median_salary": 105689.0
+    },
+    {
+      "country": "Japan",
+      "job_role": "Software Engineer AI",
+      "median_salary": 89388.0
+    },
+    {
+      "country": "Netherlands",
+      "job_role": "AI Engineer",
+      "median_salary": 94982.5
+    },
+    {
+      "country": "Netherlands",
+      "job_role": "Computer Vision Engineer",
+      "median_salary": 97130.5
+    },
+    {
+      "country": "Netherlands",
+      "job_role": "Data Analyst",
+      "median_salary": 66753.0
+    },
+    {
+      "country": "Netherlands",
+      "job_role": "Data Scientist",
+      "median_salary": 91819.0
+    },
+    {
+      "country": "Netherlands",
+      "job_role": "Machine Learning Engineer",
+      "median_salary": 100869.0
+    },
+    {
+      "country": "Netherlands",
+      "job_role": "NLP Engineer",
+      "median_salary": 97916.0
+    },
+    {
+      "country": "Netherlands",
+      "job_role": "Research Scientist",
+      "median_salary": 106034.0
+    },
+    {
+      "country": "Netherlands",
+      "job_role": "Software Engineer AI",
+      "median_salary": 96338.0
+    },
+    {
+      "country": "Singapore",
+      "job_role": "AI Engineer",
+      "median_salary": 106104.5
+    },
+    {
+      "country": "Singapore",
+      "job_role": "Computer Vision Engineer",
+      "median_salary": 112369.0
+    },
+    {
+      "country": "Singapore",
+      "job_role": "Data Analyst",
+      "median_salary": 79806.0
+    },
+    {
+      "country": "Singapore",
+      "job_role": "Data Scientist",
+      "median_salary": 106566.0
+    },
+    {
+      "country": "Singapore",
+      "job_role": "Machine Learning Engineer",
+      "median_salary": 114808.5
+    },
+    {
+      "country": "Singapore",
+      "job_role": "NLP Engineer",
+      "median_salary": 111716.0
+    },
+    {
+      "country": "Singapore",
+      "job_role": "Research Scientist",
+      "median_salary": 119931.0
+    },
+    {
+      "country": "Singapore",
+      "job_role": "Software Engineer AI",
+      "median_salary": 109530.0
+    },
+    {
+      "country": "UAE",
+      "job_role": "AI Engineer",
+      "median_salary": 86612.0
+    },
+    {
+      "country": "UAE",
+      "job_role": "Computer Vision Engineer",
+      "median_salary": 88462.0
+    },
+    {
+      "country": "UAE",
+      "job_role": "Data Analyst",
+      "median_salary": 62851.5
+    },
+    {
+      "country": "UAE",
+      "job_role": "Data Scientist",
+      "median_salary": 84565.0
+    },
+    {
+      "country": "UAE",
+      "job_role": "Machine Learning Engineer",
+      "median_salary": 94105.0
+    },
+    {
+      "country": "UAE",
+      "job_role": "NLP Engineer",
+      "median_salary": 90888.0
+    },
+    {
+      "country": "UAE",
+      "job_role": "Research Scientist",
+      "median_salary": 98415.0
+    },
+    {
+      "country": "UAE",
+      "job_role": "Software Engineer AI",
+      "median_salary": 88666.0
+    },
+    {
+      "country": "UK",
+      "job_role": "AI Engineer",
+      "median_salary": 98117.5
+    },
+    {
+      "country": "UK",
+      "job_role": "Computer Vision Engineer",
+      "median_salary": 102366.5
+    },
+    {
+      "country": "UK",
+      "job_role": "Data Analyst",
+      "median_salary": 67761.0
+    },
+    {
+      "country": "UK",
+      "job_role": "Data Scientist",
+      "median_salary": 93763.5
+    },
+    {
+      "country": "UK",
+      "job_role": "Machine Learning Engineer",
+      "median_salary": 101495.0
+    },
+    {
+      "country": "UK",
+      "job_role": "NLP Engineer",
+      "median_salary": 94594.5
+    },
+    {
+      "country": "UK",
+      "job_role": "Research Scientist",
+      "median_salary": 104503.0
+    },
+    {
+      "country": "UK",
+      "job_role": "Software Engineer AI",
+      "median_salary": 92373.0
+    },
+    {
+      "country": "USA",
+      "job_role": "AI Engineer",
+      "median_salary": 127527.5
+    },
+    {
+      "country": "USA",
+      "job_role": "Computer Vision Engineer",
+      "median_salary": 125803.0
+    },
+    {
+      "country": "USA",
+      "job_role": "Data Analyst",
+      "median_salary": 86467.0
+    },
+    {
+      "country": "USA",
+      "job_role": "Data Scientist",
+      "median_salary": 118424.0
+    },
+    {
+      "country": "USA",
+      "job_role": "Machine Learning Engineer",
+      "median_salary": 130178.0
+    },
+    {
+      "country": "USA",
+      "job_role": "NLP Engineer",
+      "median_salary": 126265.0
+    },
+    {
+      "country": "USA",
+      "job_role": "Research Scientist",
+      "median_salary": 142755.0
+    },
+    {
+      "country": "USA",
+      "job_role": "Software Engineer AI",
+      "median_salary": 121844.0
+    }
+  ],
+  "synthetic_data_notice": "Dataset is synthetic. For academic & demo purposes only."
+}
